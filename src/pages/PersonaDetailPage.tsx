@@ -22,7 +22,7 @@ export default function PersonaDetailPage() {
   const { id } = useParams<{ id: string }>();
   const personaId = Number(id);
   const navigate = useNavigate();
-  const { canEdit, canCreate, canDeactivate } = useRole();
+  const { canCreate, canDeactivate } = useRole();
   const [activeTab, setActiveTab] = useState<Tab>("puestos");
 
   const personaFetch = useFetch(

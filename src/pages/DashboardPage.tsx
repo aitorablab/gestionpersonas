@@ -49,10 +49,6 @@ const riskBar: Record<string, string> = {
   "Medio": "bg-amber-400", "Bajo": "bg-emerald-500", "Sin riesgo": "bg-emerald-400",
 };
 
-const criticidadColor: Record<number, string> = {
-  0: "badge-slate", 1: "badge-slate", 2: "badge-yellow", 3: "badge-red",
-  4: "badge bg-red-200 text-red-800 dark:bg-red-900/50 dark:text-red-300",
-};
 const criticidadLabel: Record<number, string> = {
   0: "—", 1: "Baja", 2: "Media", 3: "Alta", 4: "Crítica",
 };

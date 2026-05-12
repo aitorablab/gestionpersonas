@@ -10,7 +10,7 @@ import { useRole } from "../hooks/useAppContext";
 import Modal from "../components/ui/Modal";
 import Toggle from "../components/ui/Toggle";
 import { LoadingSpinner, ErrorState } from "../components/ui/States";
-import { RelationSection, RelationRow, CriticidadBadge } from "../components/relations";
+import { RelationSection, RelationRow } from "../components/relations";
 import { mockTareas, mockPuestoTareas, mockPuestos, mockMatrizRows, mockPersonaTareasAsignadas, mockPersonas } from "../data/mockData";
 
 const criticidadConfig: Record<number, { label: string; cls: string }> = {
