@@ -49,7 +49,7 @@ export default function Sidebar() {
       {/* Logo */}
       <div className="px-5 py-5 border-b border-slate-100 dark:border-slate-800">
         <div className="flex items-center gap-2.5">
-          <img src="/src/assets/logo.png" alt="A&B" className="w-12 h-12 rounded-xl object-cover" />
+          <img src="./logo.png" alt="A&B" className="w-12 h-12 rounded-xl object-cover" />
 <div>
   <p className="text-[16px] font-bold text-slate-800 dark:text-slate-100 leading-tight">PersonasPro</p>
   <p className="text-[10px] text-slate-400 leading-tight">Gestión de personas</p>
